@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 null, // Don't filter by row groups
                 null); // The sort order
 
-        TextView displayView = (TextView) findViewById(R.id.text_view_book);
+        TextView displayView = findViewById(R.id.text_view_book);
 
         try {
             // Create a header in the Text View that looks like this:

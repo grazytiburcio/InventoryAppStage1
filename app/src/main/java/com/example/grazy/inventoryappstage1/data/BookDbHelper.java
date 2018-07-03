@@ -11,8 +11,6 @@ import com.example.grazy.inventoryappstage1.data.BookContract.BookEntry;
     */
     public class BookDbHelper extends SQLiteOpenHelper {
 
-    public static final String LOG_TAG = BookDbHelper.class.getSimpleName();
-
     /**
      * Name of the database file
      */
